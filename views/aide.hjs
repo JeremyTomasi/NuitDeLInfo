@@ -43,6 +43,7 @@
       <div class="container">
         <span class="text-muted">AIDES DISPONIBLE</span>
         <div class="row">
+          {{#aides}}
           <div class="card" style="width: 18rem;">
             {{#link}}
               <img src={{link}} class="card-img-top" alt="...">
@@ -67,6 +68,7 @@
               </p>
             </div>
           </div>
+          {{/aides}}
         </div>
       </div>
     </footer>
