@@ -62,12 +62,25 @@
         <h2>"Pas 2 site DESO"</h2>
       {{/weblink}}
 
-      {{#weblink}}
-        <h2>"Site :"</h2> <a>{{title}}</a>
-      {{/weblink}}
-      {{^weblink}}
-        <h2>"Pas 2 site DESO"</h2>
-      {{/weblink}}
+      {{#tab1}}
+        <h2>"TAB1"</h2>
+      {{/tab1}}
+      {{^tab1}}
+        <h2>"Pas 2 TAB1"</h2>
+      {{/tab1}}
+      {{#tab2}}
+        <h2>"TAB2"</h2>
+      {{/tab2}}
+      {{^tab2}}
+        <h2>"Pas 2 TAB2"</h2>
+      {{/tab2}}
+
+      {{#listDoc}}
+        <h2>"list doc"</h2>
+      {{/listDoc}}
+      {{^listDoc}}
+        <h2>"pas deux listDoc"</h2>
+      {{/listDoc}}
     </div>
     <!--//CONTAINER-->
     <!--footer-->
