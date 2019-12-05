@@ -43,25 +43,7 @@
       <div class="container">
         <span class="text-muted">AIDES DISPONIBLE</span>
         <div class="row">
-          <div class="card" style="width: 18rem;">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Logo_Crous_vectoris%C3%A9.svg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">
-                {{#title}}
-                  <h1>{{title}}</h1>
-                {{/title}}
-                {{^title}}
-                  <h1>default title</h1>
-                {{/title}}
-                {{#motd}}
-                  <h1>{{title}}</h1>
-                {{/motd}}
-                {{^motd}}
-                  <h1>default motd</h1>
-                {{/motd}}
-              </p>
-            </div>
-          </div>
+
         </div>
       </div>
     </footer>
