@@ -20,6 +20,7 @@ router.get('/list', (req,res,next) => {
     const data = {
       aides:aides
     }
+  })
 })
 
 module.exports = router
