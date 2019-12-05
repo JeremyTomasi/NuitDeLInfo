@@ -17,7 +17,7 @@ router.get('/list', (req,res,next) => {
     if (err){
       return next(err)
     }
-
+})
 
   Aide.find()
   .then(aides => {
