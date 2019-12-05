@@ -44,21 +44,7 @@
         <span class="text-muted">PHRASE D'ACCROCHE + SVG.</span>
         <div class="row">
           <div class="btn-group">
-            <button class="btn btn-light">CLICK POUR AVOIR DE LA THUNE</button>
-          </div>
-        </div>
-        <div class="row">
-          <div class="card" style="width: 18rem;">
-            <img src="LIEN IMAGE CROUS" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">CROUS</p>
-            </div>
-          </div>
-          <div class="card" style="width: 18rem;">
-            <img src="LIEN IMAGE CAF" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">CAF</p>
-            </div>
+            <button href="/aide" class="btn btn-light">CLICK POUR AVOIR DE LA THUNE</button>
           </div>
         </div>
       </div>
