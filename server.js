@@ -10,7 +10,7 @@ moment.locale('fr');
 
 
 //connexion à la base de données mongodb
-mongoose.connect(connectionString,, { useUnifiedTopology: true,useNewUrlParser:true}, (err,data) => {
+mongoose.connect(connectionString, { useUnifiedTopology: true,useNewUrlParser:true}, (err,data) => {
   if (err){
     console.log("Connexion à la base de donnée : échec")
     return
