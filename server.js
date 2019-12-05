@@ -3,8 +3,20 @@ const createError = require('http-errors');
 const path = require('path');
 const express = require('express');
 const hjs = require('hjs');
+const mongoose = require('mongoose');
 const moment = require('moment');
+const connectionString = 'mongodb+srv://Siggy:Necrosig@db-kpfp1.mongodb.net/test?retryWrites=true&w=majority'
 moment.locale('fr');
+
+
+//connexion à la base de données mongodb
+mongoose.connect(connectionString,{useNewUrlParser:true}, (err,data) => {
+  if (err){
+    console.log("Connexion à la base de donnée : échec")
+    return
+  }
+  console.log("Connexion à la base de donnée : réussite")
+})
 
 
 //Architecture du projet
@@ -42,5 +54,6 @@ app.use(function(err, req, res, next) {
 
 
 //Serveur
-app.listen(8080)
-console.log("Application connecté sur localhost:8080")
+console.log("Tentative de connexion...");
+app.listen(5000)
+console.log("Application connecté sur localhost:5000")
