@@ -60,7 +60,7 @@
                   <h1>default title</h1>
                 {{/title}}
                 {{#motd}}
-                  <h1>{{title}}</h1>
+                  <h1>{{motd}}</h1>
                 {{/motd}}
                 {{^motd}}
                   <h1>default motd</h1>
