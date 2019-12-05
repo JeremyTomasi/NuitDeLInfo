@@ -5,7 +5,7 @@ const Aide = require("../models/Aide")
 moment.locale('fr')
 
 router.get('/', (req,res,next) =>{
-  res.render("aide")
+  res.redirect('/list')
 })
 
 router.get('/list', (req,res,next) => {
@@ -16,6 +16,22 @@ router.get('/list', (req,res,next) => {
       aides:aides
     }
     res.render("aide",data)
+  })
+})
+
+router.get('/:aideId', (req,res,next) => {
+
+  Aide.findById(req.params.aideId, (err, aide) => {
+    if (err) {
+      return next(err)
+    }
+
+    const data = {
+      aide:aide
+    }
+
+    res.render("aideFull",data)
+
   })
 })
 
