@@ -44,7 +44,7 @@
         <span class="text-muted">PHRASE D'ACCROCHE + SVG.</span>
         <div class="row">
           <div class="btn-group">
-            <button href="/aide" class="btn btn-light">CLICK POUR AVOIR DE LA THUNE</button>
+            <a href="\aide"><button  class="btn btn-light">CLICK POUR AVOIR DE LA THUNE</button></a>
           </div>
         </div>
       </div>
