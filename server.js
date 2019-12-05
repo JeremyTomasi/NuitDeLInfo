@@ -42,5 +42,5 @@ app.use(function(err, req, res, next) {
 
 
 //Serveur
-app.listen(8080)
-console.log("Application connecté sur localhost:8080")
+app.listen(80)
+console.log("Application connecté sur localhost:80")
