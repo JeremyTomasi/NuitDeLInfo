@@ -21,7 +21,7 @@ mongoose.connect(connectionString, { useUnifiedTopology: true,useNewUrlParser:tr
 
 //Architecture du projet
 const home = require('./routes/home')
-
+const aide = require('./routes/aide')
 
 //Déclaration de l'app Express
 const app = express()
@@ -37,7 +37,7 @@ app.set('view engine', "hjs")
 app.use(express.json())
 app.use(express.urlencoded({extended:false}))
 app.use('/',home)
-
+app.use('/aide',aide)
 
 //Gestion des erreurs
 app.use(function(req, res, next) {
