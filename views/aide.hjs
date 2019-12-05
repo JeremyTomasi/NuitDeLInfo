@@ -42,32 +42,35 @@
     <footer class="footer mt-auto py-3">
       <div class="container">
         <span class="text-muted">AIDES DISPONIBLE</span>
+
         <div class="row">
           {{#aides}}
-          <div class="card" style="width: 18rem;">
-            {{#link}}
-              <img src={{link}} class="card-img-top" alt="...">
-            {{/link}}
-            {{^link}}
-              <img src="https://thumbs.dreamstime.com/z/vector-error-message-warning-pop-up-window-vintage-user-interface-background-frame-isolated-white-119400460.jpg" class="card-img-top" alt="...">
-            {{/link}}
-            <div class="card-body">
-              <p class="card-text">
-                {{#title}}
-                  <h1>{{title}}</h1>
-                {{/title}}
-                {{^title}}
-                  <h1>default title</h1>
-                {{/title}}
-                {{#motd}}
-                  <h1>{{motd}}</h1>
-                {{/motd}}
-                {{^motd}}
-                  <h1>default motd</h1>
-                {{/motd}}
-              </p>
+          <a href="/aide/{{_id}}">
+            <div class="card" style="width: 18rem;">
+              {{#link}}
+              <img src="{{link}}" class="card-img-top" alt="...">
+              {{/link}}
+              {{^link}}
+                <img src="https://thumbs.dreamstime.com/z/vector-error-message-warning-pop-up-window-vintage-user-interface-background-frame-isolated-white-119400460.jpg" class="card-img-top" alt="...">
+              {{/link}}
+              <div class="card-body">
+                <p class="card-text">
+                  {{#title}}
+                    <h1>{{title}}</h1>
+                  {{/title}}
+                  {{^title}}
+                    <h1>default title</h1>
+                  {{/title}}
+                  {{#motd}}
+                    <h1>{{motd}}</h1>
+                  {{/motd}}
+                  {{^motd}}
+                    <h1>default motd</h1>
+                  {{/motd}}
+                </p>
+              </div>
             </div>
-          </div>
+          </a>
           {{/aides}}
         </div>
       </div>
