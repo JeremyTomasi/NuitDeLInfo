@@ -23,8 +23,3 @@ router.get('/list', (req,res,next) => {
 })
 
 module.exports = router
-/*
-res.json({
-  test:"test"
-})
-*/
