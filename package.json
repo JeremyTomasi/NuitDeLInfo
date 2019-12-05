@@ -1,0 +1,25 @@
+{
+  "name": "nuitdelinfo",
+  "version": "1.0.0",
+  "description": "SiteNuitdel'info",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LugurbalDev/NuitDeLInfo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LugurbalDev/NuitDeLInfo/issues"
+  },
+  "homepage": "https://github.com/LugurbalDev/NuitDeLInfo#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hjs": "0.0.6",
+    "moment": "^2.24.0",
+    "nodemon": "^2.0.1"
+  }
+}
