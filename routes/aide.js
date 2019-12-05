@@ -5,7 +5,7 @@ const Aide = require("../models/Aide")
 moment.locale('fr')
 
 router.get('/', (req,res,next) =>{
-  res.redirect('/list')
+  res.redirect('/aide/list')
 })
 
 router.get('/list', (req,res,next) => {
