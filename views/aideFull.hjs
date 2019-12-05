@@ -37,6 +37,37 @@
       {{#title}}
         <h1>{{title}}</h1>
       {{/title}}
+      {{^title}}
+        <h1>default title</h1>
+      {{/title}}
+
+      {{#link}}
+      <img src="{{link}}" class="card-img-top" alt="...">
+      {{/link}}
+      {{^link}}
+        <img src="https://thumbs.dreamstime.com/z/vector-error-message-warning-pop-up-window-vintage-user-interface-background-frame-isolated-white-119400460.jpg" class="card-img-top" alt="...">
+      {{/link}}
+
+      {{#description}}
+        <h1>{{description}}</h1>
+      {{/description}}
+      {{^description}}
+        <h1>default description</h1>
+      {{/description}}
+
+      {{#weblink}}
+        <h2>"Site :"</h2> <a>{{title}}</a>
+      {{/weblink}}
+      {{^weblink}}
+        <h2>"Pas 2 site DESO"</h2>
+      {{/weblink}}
+
+      {{#weblink}}
+        <h2>"Site :"</h2> <a>{{title}}</a>
+      {{/weblink}}
+      {{^weblink}}
+        <h2>"Pas 2 site DESO"</h2>
+      {{/weblink}}
     </div>
     <!--//CONTAINER-->
     <!--footer-->
