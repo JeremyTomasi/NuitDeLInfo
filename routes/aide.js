@@ -6,28 +6,16 @@ moment.locale('fr')
 
 router.get('/', (req,res,next) =>{
   res.render("aide")
-
 })
 
 router.get('/list', (req,res,next) => {
 
-  Aide.create({
-    motd:"test"
-  }, (err, aide) => {
-    if (err){
-      return next(err)
-    }
-})
-
   Aide.find()
   .then(aides => {
-    res.json({
-      confirmation:'success',
-      data:aides
-    })
     const data = {
       aides:aides
     }
+    res.render("aide",data)
   })
 })
 
