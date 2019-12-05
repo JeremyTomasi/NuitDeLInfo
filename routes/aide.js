@@ -11,6 +11,14 @@ router.get('/', (req,res,next) =>{
 
 router.get('/list', (req,res,next) => {
 
+  Aide.create({
+    motd:"test"
+  }, (err, aide) => {
+    if (err){
+      return next(err)
+    }
+
+
   Aide.find()
   .then(aides => {
     res.json({
