@@ -37,17 +37,17 @@
     <div class="container">
       {{#aide}}
       <div class=card>
-        <div style="linear-gradient(left,{{color}},#FFFFFF);color:white" class="card-header">
+        <div style="background:linear-gradient(left,{{color}},#FFFFFF);color:white" class="card-header mt-3 rounded-top">
           {{#title}}
           <h1 class="display-2">{{title}}</h1>
           {{/title}}
         </div>
       <div class="card-body">
       {{#description}}
-        <h1>{{description}}</h1>
+        <p class="card-text">{{description}}</p>
       {{/description}}
       {{^description}}
-        <h1>default description</h1>
+        <p class="card-text">default description</p>
       {{/description}}
 
       {{#weblink}}
