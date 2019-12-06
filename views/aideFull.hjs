@@ -46,18 +46,11 @@
       {{#description}}
         <p class="card-text">{{description}}</p>
       {{/description}}
-      {{^description}}
-        <p class="card-text">default description</p>
-      {{/description}}
-
       {{#weblink}}
         <h2>"Site :"</h2> <a>{{title}}</a>
       {{/weblink}}
-      <p>{{#tab2}}<br>{{/tab2}}</p>
       <ul>
-        {{#listDoc}}
-          <li>{{listDoc}}</li>
-        {{/listDoc}}
+          <li>{{{listDoc}}}</li>
       </ul>
       {{^listDoc}}
         <h2>Aucun document nécessaire ! :)</h2>
