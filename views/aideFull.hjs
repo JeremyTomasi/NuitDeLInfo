@@ -78,7 +78,7 @@
       {{/listDoc}}
 
       {{#carte}}
-        {{carte}}
+        <div>{{carte}}</div>
       {{/carte}}
       {{^carte}}
         <h2>"Pas de CARTE"</h2>
