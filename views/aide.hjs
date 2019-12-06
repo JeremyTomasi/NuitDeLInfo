@@ -34,7 +34,7 @@
   <body style="background-color:#f2f2f2;">
     <!--CONTAINER-->
     <div class="container">
-    <h1>TITRE AIDE</h1>
+    <h1 class="display-1">Liste des aides disponible</h1>
     <div class="row">
             {{#aides}}
             <div class="col-md-auto">
