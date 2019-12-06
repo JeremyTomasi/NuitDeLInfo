@@ -36,18 +36,18 @@
     <div class="container">
       <h1>TITRE</h1>
     </div>
+    <div class="container">
+      <span class="text-muted">PHRASE D'ACCROCHE + SVG.</span>
+      <div class="row">
+        <div class="btn-group">
+          <a href="\aide"><button  class="btn btn-light">CLICK POUR AVOIR DE LA THUNE</button></a>
+        </div>
+      </div>
+    </div>
     <!--//CONTAINER-->
     <!--footer-->
     <hr>
     <footer class="footer mt-auto py-3">
-      <div class="container">
-        <span class="text-muted">PHRASE D'ACCROCHE + SVG.</span>
-        <div class="row">
-          <div class="btn-group">
-            <a href="\aide"><button  class="btn btn-light">CLICK POUR AVOIR DE LA THUNE</button></a>
-          </div>
-        </div>
-      </div>
     </footer>
     <!--//footer-->
   </body>
