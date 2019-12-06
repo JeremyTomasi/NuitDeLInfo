@@ -39,7 +39,7 @@
           <span class="border border-dark border-width:2px border-left border-width:5px">
             {{#aides}}
             <a href="/aide/{{_id}}">
-              <div class="card col-xs-8 col-sm-6 col-md-4 col-lg-2">
+              <div class="card" style="max-width: 18rem" >
                 {{#link}}
                 <img src="{{link}}" class="card-img-top" alt="...">
                 {{/link}}
@@ -49,17 +49,13 @@
                 <div class="card-body">
                   <p class="card-text">
                     {{#title}}
-                      <h1>{{title}}</h1>
+                      <div class="card-header">{{title}}</div>
                     {{/title}}
-                    {{^title}}
-                      <h1>default title</h1>
-                    {{/title}}
+                    <div class="card-body">
                     {{#motd}}
-                      <h1>{{motd}}</h1>
+                      <p class="card-text">{{motd}}</p>
                     {{/motd}}
-                    {{^motd}}
-                      <h1>default motd</h1>
-                    {{/motd}}
+                    </div>
                   </p>
                 </div>
               </div>

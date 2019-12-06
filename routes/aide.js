@@ -25,13 +25,10 @@ router.get('/:aideId', (req,res,next) => {
     if (err) {
       return next(err)
     }
-
     const data = {
       aide:aide
     }
-
     res.render("aideFull",data)
-
   })
 })
 
