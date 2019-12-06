@@ -59,7 +59,7 @@
       {{/listDoc}}
       {{#carte}}
         <p>Où nous trouver</p>
-      <div id="divCarteID" class=" w-25 h-25">
+      <div id=" " class="divCarteClass w-25 h-25">
         {{carte}}
       </div>
       {{/carte}}
