@@ -36,16 +36,9 @@
     <h1>TITRE AIDE</h1>
       <div class="col-2">
         <div class="row">
-          <span class="border border-dark border-width:2px border-left border-width:5px">
             {{#aides}}
             <a href="/aide/{{_id}}">
               <div class="card" style="max-width: 18rem" >
-                {{#link}}
-                <img src="{{link}}" class="card-img-top" alt="...">
-                {{/link}}
-                {{^link}}
-                  <img src="https://thumbs.dreamstime.com/z/vector-error-message-warning-pop-up-window-vintage-user-interface-background-frame-isolated-white-119400460.jpg" class="card-img-top" alt="...">
-                {{/link}}
                 <div class="card-body">
                   <p class="card-text">
                     {{#title}}
@@ -61,7 +54,6 @@
               </div>
             </a>
             {{/aides}}
-          </span>
         </div>
       </div>
     <!--//CONTAINER-->
