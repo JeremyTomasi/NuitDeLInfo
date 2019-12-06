@@ -55,10 +55,10 @@
       {{/weblink}}
       <table class="table table-bordered">
         <tbody>
-          <tr>
-            <th>{{tab1}}</th>
-            <td>{{tab2}}</td>
-          </tr>
+
+            {{#tab1}}<tr><th>{{tab1}}</th>{{/tab1}}
+            {{#tab2}}<td>{{tab2}}</td></tr>{{/tab2}}
+
         <tbody>
       </table>
 
