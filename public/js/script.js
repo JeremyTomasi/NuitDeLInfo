@@ -1,6 +1,6 @@
 
 window.onload = new function(){
-  var divCarte = document.getElementsByClassName("divCarteClass");
-  document.write(divCarteClass[0].innerHTML)
+  var divCarte = document.getElementById("divCarteID");
+  divCarte.innerHTML = divCarte.innerText
 
 }
