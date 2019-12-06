@@ -36,7 +36,7 @@
     <h1>TITRE AIDE</h1>
     <div class="row w-75">
             {{#aides}}
-            <div class="col-4">
+            <div class="col-md-auto">
             <a style="all:unset;cursor: pointer" href="/aide/{{_id}}">
               <div class="card" style="max-width: 18rem" >
                     {{#title}}
