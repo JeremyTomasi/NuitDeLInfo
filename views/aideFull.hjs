@@ -62,7 +62,9 @@
       {{^listDoc}}
         <h2>Aucun document nécessaire ! :)</h2>
       {{/listDoc}}
-
+      {{#carte}}
+        {{carte}}
+      {{/carte}}
     </div>
   </div>
       {{/aide}}
