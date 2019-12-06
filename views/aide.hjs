@@ -33,35 +33,26 @@
   <!--//NAVBAR-->
   <body style="background-color:#f2f2f2;">
     <!--CONTAINER-->
-    <h1>TITRE AIDE</h1>
-      <div class="row">
-        <div class="shadow-none p-3 mb-5 bg-light rounded">
-          <span class="border border-dark border-width:2px border-left border-width:5px">
+    <div class="container">
+    <h1 class="display-1">Liste des aides disponible</h1>
+    <hr>
+    <div class="row">
             {{#aides}}
-            <a href="/aide/{{_id}}">
+            <div class="col-md-auto">
+            <a style="all:unset;cursor: pointer" href="/aide/{{_id}}">
               <div class="card" style="max-width: 18rem" >
-                {{#link}}
-                <img src="{{link}}" class="card-img-top" alt="...">
-                {{/link}}
-                {{^link}}
-                  <img src="https://thumbs.dreamstime.com/z/vector-error-message-warning-pop-up-window-vintage-user-interface-background-frame-isolated-white-119400460.jpg" class="card-img-top" alt="...">
-                {{/link}}
-                <div class="card-body">
-                  <p class="card-text">
                     {{#title}}
-                      <div class="card-header">{{title}}</div>
+                      <div style="background-color:{{color}};color:white" class="card-header">{{title}}</div>
                     {{/title}}
                     <div class="card-body">
                     {{#motd}}
                       <p class="card-text">{{motd}}</p>
                     {{/motd}}
                     </div>
-                  </p>
-                </div>
-              </div>
-            </a>
+                  </div>
+                </a>
+            </div>
             {{/aides}}
-          </span>
         </div>
       </div>
     <!--//CONTAINER-->
