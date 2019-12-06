@@ -33,7 +33,6 @@
   <!--//NAVBAR-->
   <body style="background-color:#f2f2f2;">
     <!--CONTAINER-->
-    <div class="container">
       <h1>TITRE AIDE</h1>
         <div class="row">
           {{#aides}}
@@ -65,7 +64,6 @@
           </a>
           {{/aides}}
         </div>
-    </div>
     <!--//CONTAINER-->
     <!--footer-->
     <hr>
