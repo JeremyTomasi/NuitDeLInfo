@@ -59,28 +59,29 @@
         <h2>"Pas 2 site DESO"</h2>
       {{/weblink}}
 
-      {{#tab1}}
-        <h2>"TAB1"</h2>
-      {{/tab1}}
-      {{^tab1}}
-        <h2>"Pas 2 TAB1"</h2>
-      {{/tab1}}
-      {{#tab2}}
-        <h2>"TAB2"</h2>
-      {{/tab2}}
-      {{^tab2}}
-        <h2>"Pas 2 TAB2"</h2>
-      {{/tab2}}
+      <table class="table">
+        <tbody>
+          {{#tab1}}
+            <td>{{tab1}}</td>
+          {{/tab1}}
 
-      {{#listDoc}}
-        <h2>"list doc"</h2>
-      {{/listDoc}}
+          {{#tab2}}
+            <td>{{tab2}}</td>
+          {{/tab2}}
+        <tbody>
+      </table>
+
+      <ul>
+        {{#listDoc}}
+          <li>{{listDoc}}</li>
+        {{/listDoc}}
+      </ul>
       {{^listDoc}}
-        <h2>"pas deux listDoc"</h2>
+        <h2>Aucun document nécessaire ! :)</h2>
       {{/listDoc}}
 
       {{#carte}}
-        {{carte}}
+        <div>{{carte}}</div>
       {{/carte}}
       {{^carte}}
         <h2>"Pas de CARTE"</h2>
