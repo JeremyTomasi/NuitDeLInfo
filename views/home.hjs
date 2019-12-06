@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="/css/master.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
-    <title>nom du site</title>
+    <title>Trouv'Alloc</title>
   </head>
   <!--NAVBAR-->
   <nav class="shadow-sm  navbar navbar-expand-lg navbar-light bg-light">
@@ -19,13 +19,13 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="#">item 1<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#">Accueil<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Item 2</a>
+            <a class="nav-link" href="#">Les aides</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Item 3</a>
+            <a class="nav-link" href="#">Contact</a>
           </li>
         </ul>
       </div>
@@ -40,7 +40,7 @@
       <span class="text-muted">PHRASE D'ACCROCHE + SVG.</span>
       <div class="row">
         <div class="btn-group">
-          <a href="\aide"><button  class="btn btn-light">CLICK POUR AVOIR DE LA THUNE</button></a>
+          <a href="\aide"><button  class="btn btn-light">DÉCOUVRE TES AIDES ET ALLOCATIONS</button></a>
         </div>
       </div>
     </div>
@@ -48,6 +48,7 @@
     <!--footer-->
     <hr>
     <footer class="footer mt-auto py-3">
+      <!--LISTE DE L'EQUIPE-->
     </footer>
     <!--//footer-->
   </body>
