@@ -37,7 +37,7 @@
     <div class="container">
       {{#aide}}
       <div class="card mt-3 rounded-top" >
-        <div style="background:linear-gradient(left,{{color}},#FFFFFF);color:white" class="card-header ">
+        <div style="background:linear-gradient({{color}},#EEEEEE);color:white" class="card-header ">
           {{#title}}
           <h1 class="display-2">{{title}}</h1>
           {{/title}}
