@@ -37,8 +37,8 @@
       <h3 class="font-weight-normal">TU ES PERDU DANS TES DÉMARCHES ADMINISTRATIVES ET TU NE SAIS PAS À QUELLE AIDE TU AS DROIT ?</h3>
     </div>
     <div class="container text-center">
-      <img src="images/question.png" class="col-xs-12 col-sm-10 col-md-8 col-lg-6">
-      <div class="row btn-block">
+      <img src="/images/question.png" class="col-xs-12 col-sm-10 col-md-8 col-lg-6">
+      <div class="btn-block">
         <div class="btn-group">
           <a href="\aide"><button  class="btn btn-info">DÉCOUVRE TES AIDES ET ALLOCATIONS</button></a>
         </div>
