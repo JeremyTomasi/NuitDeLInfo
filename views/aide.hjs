@@ -49,6 +49,10 @@
                     {{#motd}}
                       <p class="card-text">{{motd}}</p>
                     {{/motd}}
+                    {{#webLink}}
+                      <p class="card-text"> -> <a href="{{webLink}}">Site web {{title}}</a></p>
+                    {{/webLink}}
+                    <button class="btn btn-primary">En savoir plus ...</button>
                     </div>
                   </div>
                 </a>
