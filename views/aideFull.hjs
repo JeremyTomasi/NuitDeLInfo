@@ -34,63 +34,64 @@
   <body style="background-color:#f2f2f2;">
     <!--CONTAINER-->
     <div class="container">
+      <div class = "bg-color">
+        {{#title}}
+          <h1>{{title}}</h1>
+        {{/title}}
+        {{^title}}
+          <h1>default title</h1>
+        {{/title}}
+      </div>
+
+      {{#description}}
+        <h1>{{description}}</h1>
+      {{/description}}
+      {{^description}}
+        <h1>default description</h1>
+      {{/description}}
+
+      {{#weblink}}
+        <h2>"Site :"</h2> <a>{{title}}</a>
+      {{/weblink}}
+      {{^weblink}}
+        <h2>"Pas 2 site DESO"</h2>
+      {{/weblink}}
+
+      {{#tab1}}
+        <h2>"TAB1"</h2>
+      {{/tab1}}
+      {{^tab1}}
+        <h2>"Pas 2 TAB1"</h2>
+      {{/tab1}}
+      {{#tab2}}
+        <h2>"TAB2"</h2>
+      {{/tab2}}
+      {{^tab2}}
+        <h2>"Pas 2 TAB2"</h2>
+      {{/tab2}}
+
+      {{#listDoc}}
+        <h2>"list doc"</h2>
+      {{/listDoc}}
+      {{^listDoc}}
+        <h2>"pas deux listDoc"</h2>
+      {{/listDoc}}
+
+      {{#carte}}
+        <h2>"carte"</h2>
+      {{/carte}}
+      {{^carte}}
+        <h2>"Pas de CARTE"</h2>
+      {{/carte}}
     </div>
     <!--//CONTAINER-->
     <!--footer-->
     <hr>
     <footer class="footer mt-auto py-3">
       <div class="container">
-        <span class="text-muted">AIDES DISPONIBLE</span>
+        <span class="text-muted">FOOTER</span>
         <div class="row">
-          <div class = "bg-color">
-            {{#title}}
-              <h1>{{title}}</h1>
-            {{/title}}
-            {{^title}}
-              <h1>default title</h1>
-            {{/title}}
-          </div>
 
-          {{#description}}
-            <h1>{{description}}</h1>
-          {{/description}}
-          {{^description}}
-            <h1>default description</h1>
-          {{/description}}
-
-          {{#weblink}}
-            <h2>"Site :"</h2> <a>{{title}}</a>
-          {{/weblink}}
-          {{^weblink}}
-            <h2>"Pas 2 site DESO"</h2>
-          {{/weblink}}
-
-          {{#tab1}}
-            <h2>"TAB1"</h2>
-          {{/tab1}}
-          {{^tab1}}
-            <h2>"Pas 2 TAB1"</h2>
-          {{/tab1}}
-          {{#tab2}}
-            <h2>"TAB2"</h2>
-          {{/tab2}}
-          {{^tab2}}
-            <h2>"Pas 2 TAB2"</h2>
-          {{/tab2}}
-
-          {{#listDoc}}
-            <h2>"list doc"</h2>
-          {{/listDoc}}
-          {{^listDoc}}
-            <h2>"pas deux listDoc"</h2>
-          {{/listDoc}}
-
-          {{#carte}}
-            <h2>"carte"</h2>
-          {{/carte}}
-          {{^carte}}
-            <h2>"Pas de CARTE"</h2>
-          {{/carte}}
         </div>
       </div>
     </footer>
