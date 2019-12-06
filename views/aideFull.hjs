@@ -59,19 +59,21 @@
       {{/weblink}}
 
       <table class="table">
-        {{#tab1}}
-          <td>{{tab1}}</td>
-        {{/tab1}}
+        <tbody>
+          {{#tab1}}
+            <td>{{tab1}}</td>
+          {{/tab1}}
 
-        {{#tab2}}
-          <td>{{tab2}}</td>
-        {{/tab2}}
+          {{#tab2}}
+            <td>{{tab2}}</td>
+          {{/tab2}}
+        <tbody>
       </table>
 
       <ul>
-      {{#listDoc}}
-        <li>{{listDoc}}</li>
-      {{/listDoc}}
+        {{#listDoc}}
+          <li>{{listDoc}}</li>
+        {{/listDoc}}
       </ul>
       {{^listDoc}}
         <h2>Aucun document nécessaire ! :)</h2>
