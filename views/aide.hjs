@@ -35,36 +35,38 @@
     <!--CONTAINER-->
       <h1>TITRE AIDE</h1>
         <div class="row">
-          <span class="border border-dark border-width:2px border-left border-width:5px">
-            {{#aides}}
-            <a href="/aide/{{_id}}">
-              <div class="card" style="width: 18rem;">
-                {{#link}}
-                <img src="{{link}}" class="card-img-top" alt="...">
-                {{/link}}
-                {{^link}}
-                  <img src="https://thumbs.dreamstime.com/z/vector-error-message-warning-pop-up-window-vintage-user-interface-background-frame-isolated-white-119400460.jpg" class="card-img-top" alt="...">
-                {{/link}}
-                <div class="card-body">
-                  <p class="card-text">
-                    {{#title}}
-                      <h1>{{title}}</h1>
-                    {{/title}}
-                    {{^title}}
-                      <h1>default title</h1>
-                    {{/title}}
-                    {{#motd}}
-                      <h1>{{motd}}</h1>
-                    {{/motd}}
-                    {{^motd}}
-                      <h1>default motd</h1>
-                    {{/motd}}
-                  </p>
+          <div class="shadow-none p-3 mb-5 bg-light rounded">
+            <span class="border border-dark border-width:2px border-left border-width:5px">
+              {{#aides}}
+              <a href="/aide/{{_id}}">
+                <div class="card" style="width: 18rem;">
+                  {{#link}}
+                  <img src="{{link}}" class="card-img-top" alt="...">
+                  {{/link}}
+                  {{^link}}
+                    <img src="https://thumbs.dreamstime.com/z/vector-error-message-warning-pop-up-window-vintage-user-interface-background-frame-isolated-white-119400460.jpg" class="card-img-top" alt="...">
+                  {{/link}}
+                  <div class="card-body">
+                    <p class="card-text">
+                      {{#title}}
+                        <h1>{{title}}</h1>
+                      {{/title}}
+                      {{^title}}
+                        <h1>default title</h1>
+                      {{/title}}
+                      {{#motd}}
+                        <h1>{{motd}}</h1>
+                      {{/motd}}
+                      {{^motd}}
+                        <h1>default motd</h1>
+                      {{/motd}}
+                    </p>
+                  </div>
                 </div>
-              </div>
-            </a>
-            {{/aides}}
-          </span>
+              </a>
+              {{/aides}}
+            </span>
+          </div>
         </div>
     <!--//CONTAINER-->
     <!--footer-->
