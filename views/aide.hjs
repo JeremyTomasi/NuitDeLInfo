@@ -33,8 +33,9 @@
   <!--//NAVBAR-->
   <body style="background-color:#f2f2f2;">
     <!--CONTAINER-->
+    <div class="container">
     <h1>TITRE AIDE</h1>
-    <div class="row w-75">
+    <div class="row">
             {{#aides}}
             <div class="col-md-auto">
             <a style="all:unset;cursor: pointer" href="/aide/{{_id}}">
