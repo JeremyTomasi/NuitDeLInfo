@@ -52,7 +52,7 @@
                     {{#webLink}}
                       <p class="card-text"> -> <a href="{{webLink}}">Site web {{title}}</a></p>
                     {{/webLink}}
-                    <button class="btn btn-primary"><a href="/aide/{{_id}}">En savoir plus ...</a></button>
+                    <button class="btn btn-primary"><a style="color:white" href="/aide/{{_id}}">En savoir plus ...</a></button>
                     </div>
                   </div>
                 </a>
