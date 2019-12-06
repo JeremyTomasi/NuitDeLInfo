@@ -12,7 +12,7 @@
   </head>
   <!--NAVBAR-->
   <nav class="shadow-sm  navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="/">nom du site</a>
+      <a class="navbar-brand" href="/">Trouv'Alloc</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -34,10 +34,12 @@
   <body style="background-color:#f2f2f2;">
     <!--CONTAINER-->
     <div class="container">
-      <h1>TITRE</h1>
+      <h1>TU ES PERDU DANS TES DÉMARCHES ADMINISTRATIVES ET TU NE SAIS PAS À QUELLE AIDE TU AS DROIT ?</h1>
     </div>
     <div class="container">
-      <span class="text-muted">PHRASE D'ACCROCHE + SVG.</span>
+      <div class="container">
+        <img src="/images/question.png">
+      </div>
       <div class="row">
         <div class="btn-group">
           <a href="\aide"><button  class="btn btn-light">DÉCOUVRE TES AIDES ET ALLOCATIONS</button></a>
