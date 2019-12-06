@@ -33,16 +33,7 @@
   <!--//NAVBAR-->
   <body style="background-color:#f2f2f2;">
     <!--CONTAINER-->
-    <div class="container">
       <h1>TITRE AIDE</h1>
-    </div>
-    <!--//CONTAINER-->
-    <!--footer-->
-    <hr>
-    <footer class="footer mt-auto py-3">
-      <div class="container">
-        <span class="text-muted">AIDES DISPONIBLE</span>
-
         <div class="row">
           {{#aides}}
           <a href="/aide/{{_id}}">
@@ -73,6 +64,12 @@
           </a>
           {{/aides}}
         </div>
+    <!--//CONTAINER-->
+    <!--footer-->
+    <hr>
+        <div class="container">
+    <footer class="footer mt-auto py-3">
+        <span class="text-muted">AIDES DISPONIBLE</span>
       </div>
     </footer>
     <!--//footer-->
