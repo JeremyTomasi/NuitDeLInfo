@@ -36,8 +36,8 @@
     <!--CONTAINER-->
     <div class="container">
       {{#aide}}
-      <div class=card>
-        <div style="background:linear-gradient(left,{{color}},#FFFFFF);color:white" class="card-header mt-3 rounded-top">
+      <div class="card mt-3 rounded-top" >
+        <div style="background:linear-gradient(left,{{color}},#FFFFFF);color:white" class="card-header ">
           {{#title}}
           <h1 class="display-2">{{title}}</h1>
           {{/title}}
