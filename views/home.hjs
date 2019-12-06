@@ -12,7 +12,7 @@
   </head>
   <!--NAVBAR-->
   <nav class="shadow-sm  navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="/">Trouv'Alloc</a>
+      <a class="navbar-brand" href="/"><h3>Trouv'Alloc</h3></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -33,16 +33,14 @@
   <!--//NAVBAR-->
   <body style="background-color:#f2f2f2;">
     <!--CONTAINER-->
-    <div class="container">
-      <h1>TU ES PERDU DANS TES DÉMARCHES ADMINISTRATIVES ET TU NE SAIS PAS À QUELLE AIDE TU AS DROIT ?</h1>
+    <div class="container text-center mt-3">
+      <h3 class="font-weight-normal">TU ES PERDU DANS TES DÉMARCHES ADMINISTRATIVES ET TU NE SAIS PAS À QUELLE AIDE TU AS DROIT ?</h3>
     </div>
-    <div class="container">
-      <div class="container">
-        <img src="/images/question.png">
-      </div>
-      <div class="row">
+    <div class="container text-center">
+      <img src="public/images/question.png" class="col-xs-12 col-sm-10 col-md-8 col-lg-6">
+      <div class="row btn-block">
         <div class="btn-group">
-          <a href="\aide"><button  class="btn btn-light">DÉCOUVRE TES AIDES ET ALLOCATIONS</button></a>
+          <a href="\aide"><button  class="btn btn-info">DÉCOUVRE TES AIDES ET ALLOCATIONS</button></a>
         </div>
       </div>
     </div>
