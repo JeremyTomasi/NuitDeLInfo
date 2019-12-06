@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="/css/master.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
-    <title>nom du site</title>
+    <title>nom du site aide</title>
   </head>
   <!--NAVBAR-->
   <nav class="shadow-sm  navbar navbar-expand-lg navbar-light bg-light">
@@ -35,34 +35,36 @@
     <!--CONTAINER-->
       <h1>TITRE AIDE</h1>
         <div class="row">
-          {{#aides}}
-          <a href="/aide/{{_id}}">
-            <div class="card" style="width: 18rem;">
-              {{#link}}
-              <img src="{{link}}" class="card-img-top" alt="...">
-              {{/link}}
-              {{^link}}
-                <img src="https://thumbs.dreamstime.com/z/vector-error-message-warning-pop-up-window-vintage-user-interface-background-frame-isolated-white-119400460.jpg" class="card-img-top" alt="...">
-              {{/link}}
-              <div class="card-body">
-                <p class="card-text">
-                  {{#title}}
-                    <h1>{{title}}</h1>
-                  {{/title}}
-                  {{^title}}
-                    <h1>default title</h1>
-                  {{/title}}
-                  {{#motd}}
-                    <h1>{{motd}}</h1>
-                  {{/motd}}
-                  {{^motd}}
-                    <h1>default motd</h1>
-                  {{/motd}}
-                </p>
+          <span class="border border-dark border-width:2px border-left border-width:5px">
+            {{#aides}}
+            <a href="/aide/{{_id}}">
+              <div class="card" style="width: 18rem;">
+                {{#link}}
+                <img src="{{link}}" class="card-img-top" alt="...">
+                {{/link}}
+                {{^link}}
+                  <img src="https://thumbs.dreamstime.com/z/vector-error-message-warning-pop-up-window-vintage-user-interface-background-frame-isolated-white-119400460.jpg" class="card-img-top" alt="...">
+                {{/link}}
+                <div class="card-body">
+                  <p class="card-text">
+                    {{#title}}
+                      <h1>{{title}}</h1>
+                    {{/title}}
+                    {{^title}}
+                      <h1>default title</h1>
+                    {{/title}}
+                    {{#motd}}
+                      <h1>{{motd}}</h1>
+                    {{/motd}}
+                    {{^motd}}
+                      <h1>default motd</h1>
+                    {{/motd}}
+                  </p>
+                </div>
               </div>
-            </div>
-          </a>
-          {{/aides}}
+            </a>
+            {{/aides}}
+          </span>
         </div>
     <!--//CONTAINER-->
     <!--footer-->
