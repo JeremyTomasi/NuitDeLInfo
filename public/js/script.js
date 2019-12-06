@@ -1,7 +1,5 @@
 var divCarte = document.getElementsByClassName("divCarteClass");
+var text = divCarte.innerText;
+console.log(text);
 
-
-for (let i = 0; i < divCarte.length; i++)
-{
-    divCarte.write(divCarte.innerText);
-}
+divCarte.innerHTML = text;
