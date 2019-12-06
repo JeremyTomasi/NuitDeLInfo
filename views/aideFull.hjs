@@ -53,15 +53,7 @@
       {{#weblink}}
         <h2>"Site :"</h2> <a>{{title}}</a>
       {{/weblink}}
-      <table class="table table-bordered">
-        <tbody>
-
-            {{#tab1}}<tr><th>{{tab1}}</th>{{/tab1}}
-            {{#tab2}}<td>{{tab2}}</td></tr>{{/tab2}}
-
-        <tbody>
-      </table>
-
+      <p>{{tab2}}</p>
       <ul>
         {{#listDoc}}
           <li>{{listDoc}}</li>
