@@ -53,7 +53,7 @@
       {{#weblink}}
         <h2>"Site :"</h2> <a>{{title}}</a>
       {{/weblink}}
-      <p>{{tab2}}</p>
+      <p>{{#tab2}}<br>{{/tab2}}</p>
       <ul>
         {{#listDoc}}
           <li>{{listDoc}}</li>
