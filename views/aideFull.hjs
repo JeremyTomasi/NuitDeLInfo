@@ -55,8 +55,10 @@
       {{/weblink}}
       <table class="table table-bordered">
         <tbody>
-            <tr>{{tab1}}</tr>
+          <tr>
+            <th>{{tab1}}</th>
             <td>{{tab2}}</td>
+          </tr>
         <tbody>
       </table>
 
