@@ -34,13 +34,11 @@
   <body style="background-color:#f2f2f2;">
     <!--CONTAINER-->
     <h1>TITRE AIDE</h1>
-      <div class="col-2">
-        <div class="row">
+    <div class="row">
+        <div class="col-sm-6">
             {{#aides}}
             <a href="/aide/{{_id}}">
               <div class="card" style="max-width: 18rem" >
-                <div class="card-body">
-                  <p class="card-text">
                     {{#title}}
                       <div class="card-header">{{title}}</div>
                     {{/title}}
@@ -49,8 +47,7 @@
                       <p class="card-text">{{motd}}</p>
                     {{/motd}}
                     </div>
-                  </p>
-                </div>
+                  </div>
               </div>
             </a>
             {{/aides}}
