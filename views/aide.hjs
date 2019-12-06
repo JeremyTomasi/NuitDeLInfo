@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/css/master.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
+    <script src="https://kit.fontawesome.com/f8911bb024.js" crossorigin="anonymous"></script>
     <title>Trouv'Alloc</title>
   </head>
   <!--NAVBAR-->
@@ -71,10 +72,10 @@
     <!--//CONTAINER-->
     <!--footer-->
     <hr>
-        <div class="container">
-    <footer class="footer mt-auto py-3">
-        <span class="text-muted">AIDES DISPONIBLE</span>
-      </div>
+    <footer class="footer mt-auto py-3 text-center">
+      <h5 class="font-weight-light">Équipe Dixmen</h5>
+      <h5 class="font-weight-light">Nuit de l'info 2019</h5>
+      <a href="https://github.com/LugurbalDev/NuitDeLInfo"><i class="fab fa-github" style="font-size:200%;color: grey;"></i></a>
     </footer>
     <!--//footer-->
   </body>
