@@ -1,5 +1,5 @@
 var divCarte = document.getElementsByClassName("divCarteClass");
 var text = divCarte.innerText;
-console.log(text);
+console.log(divCarte.innerHTML);
 
-divCarte.innerHTML = text;
+divCarte.innerHTML = $.parseHTML(divCarte[0].innerText);
