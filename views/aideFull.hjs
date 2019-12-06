@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
     <link rel="stylesheet" href="/css/master.css">
+    <script type="text/javascript" src="/js/script.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <script src="https://kit.fontawesome.com/f8911bb024.js" crossorigin="anonymous"></script>
@@ -49,6 +50,7 @@
       {{#weblink}}
         <h2>"Site :"</h2> <a>{{title}}</a>
       {{/weblink}}
+      <p>Documents Nécessaires : </p>
       <ul>
           <li>{{{listDoc}}}</li>
       </ul>
@@ -56,7 +58,10 @@
         <h2>Aucun document nécessaire ! :)</h2>
       {{/listDoc}}
       {{#carte}}
+        <p>Où nous trouver</p>
+      <div class="divCarteClass w-25 h-25">
         {{carte}}
+      </div>
       {{/carte}}
     </div>
   </div>
