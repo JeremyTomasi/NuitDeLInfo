@@ -58,7 +58,7 @@
         <h2>"Pas 2 site DESO"</h2>
       {{/weblink}}
 
-      <table class="table">
+      <table class="table table-bordered">
         <tbody>
           {{#tab1}}
             <td>{{tab1}}</td>
