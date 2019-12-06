@@ -55,16 +55,11 @@
       {{#weblink}}
         <h2>"Site :"</h2> <a>{{title}}</a>
       {{/weblink}}
-      {{^weblink}}
-        <h2>"Pas 2 site DESO"</h2>
-      {{/weblink}}
-
       <table class="table table-bordered">
         <tbody>
-          {{#tab1}}
-            <td>{{tab1}}</td>
-          {{/tab1}}
 
+            <td>{{tab1}}</td>
+          
           {{#tab2}}
             <td>{{tab2}}</td>
           {{/tab2}}
