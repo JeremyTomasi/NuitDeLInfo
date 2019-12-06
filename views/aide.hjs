@@ -38,7 +38,7 @@
     <hr>
     <div class="row">
             {{#aides}}
-            <div class="col-md-auto">
+            <div class="col-md-auto ml-auto">
             <a style="all:unset;cursor: pointer" href="/aide/{{_id}}">
               <div class="card" style="max-width: 18rem" >
                     {{#title}}
