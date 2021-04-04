@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <script src="http://code.jquery.com/jquery-3.4.1.min.js" charset="utf-8"></script>
+    <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+    <link rel="stylesheet" href="/css/master.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <script src="https://kit.fontawesome.com/f8911bb024.js" crossorigin="anonymous"></script>
+    <title>Trouv'Alloc</title>
+  </head>
+  <!--NAVBAR-->
+  <nav class="shadow-sm  navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="/"><h3>Trouv'Alloc</h3></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Accueil<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Les aides</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+  </nav>
+  <!--//NAVBAR-->
+  <body style="background-color:#f2f2f2;">
+    <!--CONTAINER-->
+    <div class="container">
+    <h1 class="display-1">Liste des aides disponible</h1>
+    <hr>
+    <div class="row">
+            {{#aides}}
+            <div class="col-md-auto ml-auto mb-3">
+            <a style="all:unset;cursor: pointer" href="/aide/{{_id}}">
+              <div style="box-shadow: 0px 10px 43px 3px rgba(0,0,0,0.4);" class="card" style="max-width: 18rem" >
+                    {{#title}}
+                      <div style="background-color:{{color}};color:white" class="card-header">{{title}}</div>
+                    {{/title}}
+                    <div class="card-body">
+                    {{#motd}}
+                      <p class="card-text">{{motd}}</p>
+                    {{/motd}}
+                    {{#webLink}}
+                      <p class="card-text"> -> <a href="{{webLink}}">Site web {{title}}</a></p>
+                    {{/webLink}}
+                    <button class="btn btn-primary"><a style="color:white" href="/aide/{{_id}}">En savoir plus ...</a></button>
+                    </div>
+                  </div>
+                </a>
+            </div>
+            {{/aides}}
+        </div>
+      </div>
+    <!--//CONTAINER-->
+    <!--footer-->
+    <hr>
+    <footer class="footer mt-auto py-3 text-center">
+      <h5 class="font-weight-light">Équipe Dixmen</h5>
+      <h5 class="font-weight-light">Nuit de l'info 2019</h5>
+      <a href="https://github.com/LugurbalDev/NuitDeLInfo"><i class="fab fa-github" style="font-size:200%;color: grey;"></i></a>
+    </footer>
+    <!--//footer-->
+  </body>
+</html>
