@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/LugurbalDev/NuitDeLInfo#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "hjs": "0.0.6",
     "moment": "^2.29.2",
     "mongoose": "^5.7.13",
